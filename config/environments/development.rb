@@ -38,9 +38,9 @@ Rails.application.configure do
     storage: :s3,
     s3_protocol: 'http',
     s3_credentials: {
-      bucket: 'articlesound',
-      access_key_id: 'AKIAIIA7PQEYXIIXD66Q',
-      secret_access_key: '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',
+      bucket: 'bucket_name',
+      access_key_id: 'access_key',
+      secret_access_key: 'secret_key',
       s3_region: 'us-east-1',
     }
   }
